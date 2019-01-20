@@ -8,7 +8,7 @@ Data was imported into R and checked. No missing or NaN values were observed. Da
 
 ### Exploratory Data Analysis
 
-| ![Data Histograms](https://raw.githubusercontent.com/ooichinchun/SindianRealEstate/blob/master/Histo.png "Data Histogram") | 
+| ![Data Histograms](Histo.png "Data Histogram") | 
 |:--:| 
 | **Histograms of Variables** |
 
