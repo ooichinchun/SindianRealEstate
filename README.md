@@ -18,7 +18,7 @@ Similarly, the number of convenience stores are all integers, with no obvious is
 
 The House price variable is fairly normal in distribution, with a small number of outliers on the high end (>100), however, without understanding more, this data point is not ignored for now.
 
-| ![Data Points](https://raw.githubusercontent.com/ooichinchun/SindianRealEstate/blob/master/DotPlot.png "Data Dot Plots") | 
+| ![Data Points](DotPlot.png "Data Dot Plots") | 
 |:--:| 
 | **Dot Plots of Variables** |
 
@@ -27,7 +27,7 @@ There appears to be a pretty strong inverse relationship with distance from the 
 Surprisingly, the latitude and longitude values appear to be varying quite linearly with the price as well, although there is greater spread at larger latitudes and longitudes.
 The relationship between age and price appears to be much more complicated, although there seems to be a bias towards much older or much newer housing, which is somewhat surprising, since one would expect newer housing to be more expensive. 
 
-| ![Correlation Matrix](https://raw.githubusercontent.com/ooichinchun/SindianRealEstate/blob/master/CorPlot.png "Correlation Plot") | 
+| ![Correlation Matrix](CorPlot.png "Correlation Plot") | 
 |:--:| 
 | **Correlation Plots of Variables** |
 
