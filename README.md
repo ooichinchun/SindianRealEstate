@@ -59,6 +59,13 @@ Indeed, running the support vector regression (SVR) model already allows us to r
 
 ##### Parameter Optimization
 
-There are additional hyper-parameters that need to be tuned for SVR: the cost and epsilon parameters. Further tuning of these parameters via a simple grid search algorithm allow us to further reduce the RMSE to 7.02 from 7.32.
+There are additional hyper-parameters that need to be tuned for SVR: the cost and epsilon parameters. Further tuning of these parameters via a simple grid search algorithm and 10-fold cross-validation allow us to further reduce the RMSE to 7.02 from 7.32.
 
 Nonetheless, this is a substantial improvement in predictive capability from the linear model's 8.9
+
+| ![Regression Models](Regression.png "Regression Models") | 
+|:--:| 
+| **Dot Plots of Predictions from Regression Models** |
+
+The predicted House Prices are then plotted as dot plots versus the actual prices for both models. 
+The linear model is clearly not as good as the SVR model, however, it is also clear that both models are severely under-predicting for the more expensive prices. More work needs to be done to improve these models for the more expensive units.
